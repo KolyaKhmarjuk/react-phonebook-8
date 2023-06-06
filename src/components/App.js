@@ -1,11 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { useEffect, lazy } from 'react';
-
 import Spinner from './mui/Spinner';
 import Container from '@mui/material/Container';
 import { Box } from '@mui/material';
-
 import { authOperations } from 'redux/auth/auth-operations';
 import { PrivateRoute } from './PrivateRoute';
 import { useAuth } from 'hooks';
